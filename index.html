@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <!--section header-->
+  <section>
+    <div class="wrapper">
+
+      <div class="box">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+      <section id="home">
+        <header class="header">
+          <div class="logo">
+            <div class="log"></div>
+            <div class="text">♠ Christian ♣</div>
+          </div>
+          <nav>
+            <ul class="nav-list">
+              <li><a href="#home">Accueil</a></li>
+              <li><a href="#about">À propos</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+
+        </header>
+        <div class="container">
+          <div class="info">
+            <div class="titre">
+              <div class="text-container">
+                <h1 class="animated-text">
+                  <span>Welcome</span>
+                  <span>To</span>
+                  <span>My</span>
+                  <span>Website</span>
+
+                </h1>
+              </div>
+              <h1>Hello</h1>
+              <h1>I'm Christian</h1>
+              <h2>I'm </h2>
+              <span><q>He who masters the code masters the machines.
+                </q></span>
+            </div>
+
+            <div class="btns">
+              <input id="btns-1" type="button" value="Talk" />
+
+              <button id="btns-2">
+                <a href="/docx/CV_ Christian RAVELOJAONA.pdf" download="Mon_CV.pdf">My CV</a>
+              </button>
+            </div>
+
+            <div class="subtitle"></div>
+          </div>
+          <div id="icone">
+            <ul class="ico">
+              <li><i class="bx bxs-phone-call"></i></li>
+
+              <li>
+                <a href="https://www.linkedin.com/in/ravelojaona-christian-74bb162b3/">
+                  <i class="bx bxl-linkedin-square"></i></a>
+              </li>
+              <li>
+                <a href="https://github.com/ChristianMDG"><i class="bx bxl-github"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="photo">
+            <div class="add"></div>
+            <div class="vide"></div>
+          </div>
+        </div>
+    </div>
+
+  </section>
+
+  <!--section about  -->
+  <main class="main">
+
+    <section id="about" class="about section">
+      <div class="Card-Contenair"></div>
+      <div id="titre">
+        <h2>À propos de moi</h2>
+      </div>
+
+      <div id="card-1">
+        <div id="photo-2"></div>
+      </div>
+      <div id="card-2">
+        <div id="paragraphe">
+          <h2> I do code and
+            make content about it!</h2>
+
+
+          <p>I am a seasoned full-stack software engineer with over
+            8 years of professional experience, specializing in backend development.
+            My expertise lies in crafting robust and scalable SaaS-based
+            architectures on the Amazon AWS platform.</p>
+        </div>
+        <div id="qlq">
+          <h2>Experience With</h2>
+          <div id="experience">
+            <div id="img-1"></div>
+            <div id="img-2"></div>
+            <div id="img-3"></div>
+            <div id="img-4"></div>
+          </div>
+        </div>
+
+      </div>
+
+      </div>
+
+    </section>
+
+
+    <section id="portfolio" class="portfolio section">
+      <h2>Mes Projets</h2>
+      <div class="project-1">
+        <div id="proj-1">
+          <h3>Projet 1</h3>
+          <div id="photo-html">photo html</div>
+          <p>Description du projet 1.</p>
+          <a href="#">Voir le projet</a>
+        </div>
+      </div>
+      <div class="project-2">
+        <div id="proj-2">
+          <h3>Projet 2</h3>
+          <div id="photo-css">css projet</div>
+          <p>Description du projet 2.</p>
+          <a href="#">Voir le projet</a>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact" class="contact section">
+      <h2>Contact</h2>
+      <form>
+        <label for="name">Nom:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div id="photo-3"></div>
+    <div id="photo-4">
+    </div>
+    <p class="colorChange">&copy; 2024 Mon Portfolio</p>
+    <style>
+      @keyframes colorChange {
+        0% {
+          color: red;
+        }
+
+        25% {
+          color: blue;
+        }
+
+        50% {
+          color: green;
+        }
+
+        75% {
+          color: orange;
+        }
+
+        100% {
+          color: red;
+        }
+      }
+
+      .colorChange {
+        animation: colorChange 5s infinite;
+      }
+    </style>
+  </footer>
+</body>
+
+</html>
